@@ -6,7 +6,5 @@ version: 1.0.0
 author: Warriorrr
 depend: [Towny, QuickShop]
 commands:
-  removeshop:
-    description: Allows players to remove a shop if they have the required Towny permissions.
-  clearwildernessshops:
-    description: Removes any shops in the wilderness. Console only.
+  quickshopremover:
+    aliases: qsr
