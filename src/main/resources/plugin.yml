@@ -1,0 +1,7 @@
+main: dev.warriorrr.quickshopremover.QuickShopRemover
+api-version: 1.15
+name: QuickShopRemover
+prefix: QuickShopRemover
+version: 1.0.0
+author: Warriorrr
+depend: [Towny, QuickShop]
