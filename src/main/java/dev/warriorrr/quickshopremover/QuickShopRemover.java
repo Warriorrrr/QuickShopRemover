@@ -12,9 +12,4 @@ public class QuickShopRemover extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new TownyListener(this), this);
         getCommand("quickshopremover").setExecutor(new QuickShopRemoverCommand());
     }
-
-    @Override
-    public void onDisable() {
-        System.out.println(prefix + "Disabling...");
-    }
 }
